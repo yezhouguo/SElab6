@@ -13,6 +13,7 @@ int main()
 {
 	//测试
 	int n;
+	int j = 0;  //b1修改的地方
 	while (cin >> n)
 		cout << F(n) << endl;
 
