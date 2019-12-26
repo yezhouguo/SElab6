@@ -13,6 +13,7 @@ int main()
 {
 	//²âÊÔ
 	int n;
+	int i = 0; //a1Ìí¼ÓµÄÓï¾ä
 	while (cin >> n)
 		cout << F(n) << endl;
 
