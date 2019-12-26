@@ -16,6 +16,7 @@ int main()
 <<<<<<< HEAD
 	int i = 0; //a1添加的语句
 =======
+	int j = 0;  //b1修改的地方
 >>>>>>> b1
 	while (cin >> n)
 		cout << F(n) << endl;
