@@ -2,21 +2,18 @@
 #include<iostream>
 using namespace std;
 
-int F(int n)//º¯Êı·µ»ØÒ»¸öÊı¶ÔÓ¦µÄFibonacciÊı
+int F(int n)//å‡½æ•°è¿”å›ä¸€ä¸ªæ•°å¯¹åº”çš„Fibonacciæ•°
 {
-	if (n == 0 || n == 1)//µİ¹é±ß½ç
+	if (n == 0 || n == 1)//é€’å½’è¾¹ç•Œ
 		return 1;
-	return F(n - 1) + F(n - 2);//µİ¹é¹«Ê½
+	return F(n - 1) + F(n - 2);//é€’å½’å…¬å¼
 }
 
 int main()
 {
-	//²âÊÔ
+	//æµ‹è¯•
 	int n;
-<<<<<<< HEAD
-	int i = 0; //a1Ìí¼ÓµÄÓï¾ä
-=======
->>>>>>> b1
+	int i = 0; //a1æ·»åŠ çš„è¯­å¥
 	while (cin >> n)
 		cout << F(n) << endl;
 
